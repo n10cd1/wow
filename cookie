@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookie Clicker | Snorlax Games</title>
+    <meta name="viewport" content="width=900, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:900&display=swap" rel="stylesheet" type="text/css">
+    <link href="https://orteil.dashnet.org/cookieclicker/style.css?v=5" rel="stylesheet" type="text/css">
+    
+    <style>
+        /* This hides the cookie consent banner specifically */
+        .cc_banner-wrapper, #cookieconsent, .cc_container {
+            display: none !important;
+            visibility: hidden !important;
+        }
+        
+        /* Adjusting for the Snorlax Games Modal */
+        body {
+            background-color: #000;
+            color: #ccc;
+            overflow: hidden;
+        }
+    </style>
+
+    <script>
+        // Game Version Constants
+        var VERSION = 2.048;
+        var BETA = 0;
+        var App = 0;
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="topBar">
+            <div><b>Cookie Clicker</b>™ © <a href="//orteil.dashnet.org" target="_blank">Orteil</a> - Snorlax Games Version</div>
+        </div>
+        
+        <div id="game">
+            <div id="versionNumber" class="title"></div>
+            <canvas id="backgroundCanvas"></canvas>
+            <div id="goldenCookie" class="goldenCookie"></div>
+            <div id="shimmers"></div>
+            <div id="alert"></div>
+            <div id="particles"></div>
+            <div id="sparkles" class="sparkles"></div>
+            <div id="notes"></div>
+            <div id="darken"></div>
+            <div id="toggleBox" class="framed prompt"></div>
+            <div id="promptAnchor">
+                <div id="prompt" class="framed">
+                    <div id="promptContent"></div>
+                    <div id="promptClose" class="close">x</div>
+                </div>
+            </div>
+            
+            <div id="sectionLeft" class="inset">
+                <canvas id="backgroundLeftCanvas" style="z-index:5;"></canvas>
+                <div class="blackFiller"></div>
+                <div class="blackGradient"></div>
+                <div id="cookies" class="title"></div>
+                <div id="bakeryNameAnchor"><div id="bakeryName" class="title"></div></div>
+                <div id="cookieAnchor">
+                    <button id="bigCookie"></button>
+                    <div id="cookieNumbers"></div>
+                </div>
+            </div>
+
+            <div id="sectionMiddle" class="inset">
+                <div id="comments" class="inset title">
+                    <div id="prefsButton" class="panelButton"><div class="subButton">Options</div></div>
+                    <div id="statsButton" class="panelButton"><div>Stats</div></div>
+                    <div id="logButton" class="panelButton"><div>Info</div></div>
+                    <div id="commentsText"></div>
+                </div>
+                <div id="centerArea">
+                    <div id="buildingsTitle" class="inset title zoneTitle">Buildings</div>
+                    <div id="rows"></div>
+                </div>
+            </div>
+
+            <div id="sectionRight" class="inset">
+                <div id="store">
+                    <div id="storeTitle" class="inset title zoneTitle">Store</div>
+                    <div id="upgrades"></div>
+                    <div id="products"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://orteil.dashnet.org/cookieclicker/main.js?v=5"></script>
+</body>
+</html>
