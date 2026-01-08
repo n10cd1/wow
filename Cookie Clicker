@@ -1,158 +1,128 @@
-<html>
-<plasmo-csui id="g0-widget"></plasmo-csui>
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:900&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    <title>0 cookies - Cookie Clicker</title>
-    <meta name="viewport" content="width=900, initial-scale=1">
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <script src="base64.js"></script>
-    <script src="/js/main.js"></script>
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-98DP5VKS42"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-98DP5VKS42');
-    </script>
-    <script src="/js/tab_cloak.js"></script>
-    <script async="" src="https://arc.io/widget.min.js#eRPHFgiC"></script>
-    <script src="https://fundingchoicesmessages.google.com/i/pub-5756835229788588?ers=1" nonce="yibq-w_TR5NOCRWsU-VL0Q" async=""></script>
-    <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588" crossorigin="anonymous"></script>
+<html lang="en"><plasmo-csui id="g0-widget"></plasmo-csui><head>
+<meta charset="UTF-8">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="theme-color" content="#222222">
+<link rel="canonical" href="https://cookieclicker-unblocked.pages.dev/">
+<link href="steam/fonts.css" rel="stylesheet" type="text/css">
+<script defer="" src="steam/steam.js"></script>
 
-    <script>
-      var VERSION = 2.048;
-      var BETA = 0;
-      var App = typeof App === "undefined" ? 0 : App;
-    </script>
+<title>Cookie Clicker Unblocked | Play Online</title>
+<meta name="description" content="Play Cookie Clicker Unblocked online for free! Enjoy the addictive incremental game where you bake endless cookies by clicking &amp; upgrading. No downloads, no restrictions—just nonstop cookie-clicking fun!">
+<meta name="viewport" content="width=900, initial-scale=1">
+<link rel="shortcut icon" href="img/favicon.ico">
+<script src="base64.js"></script>
 
-    <link href="style.css?v=5" rel="stylesheet" type="text/css">
-    <script src="main.js?v=5"></script>
-    <script src="showads.js"></script>
+<script>
+var VERSION=2.048;
+var BETA=0;
+var App=typeof App==='undefined'?0:App;
+</script>
 
-    <script type="text/javascript" src="loc/EN.js?v=2.048"></script>
-    <style type="text/css">body .icon,body .crate,body .usesIcon{background-image:url(img/icons.png?v=2.048);}</style>
+<link href="style.css?v=4" rel="stylesheet" type="text/css">
+<script defer="" src="main.js?v=4"></script>
+
+
+
+<!--[if IE]>
+<style type="text/css">
+	#ifIE9{display:block;}
+</style>
+<![endif]-->
+
+<!--[if lt IE9]><script src="excanvas.compiled.js"></script><![endif]-->
 </head>
-
 <body data-new-gr-c-s-check-loaded="14.1268.0" data-gr-ext-installed="">
-    <div id="wrapper" class="onWeb" style="transform: scale(0.90625); width: 800px; height: 722px;">
-      <div id="topBar">
-        <div><b style="font-weight: bold;">Cookie Clicker</b>™ © <a href="//orteil.dashnet.org" target="_blank" id="topbarOrteil">Orteil</a>, 2022 - <a href="//dashnet.org" target="_blank" id="topbarDashnet">DashNet</a></div>
-        <div><a href="https://twitter.com/orteil42" target="_blank" id="topbarTwitter">twitter</a></div>
-        <div><a href="https://orteil42.tumblr.com" target="_blank" id="topbarTumblr">tumblr</a></div>
-        <div style="position: relative;">
-          <div style="width: 22px; height: 32px; background: url(img/discord.png); position: absolute; left: 0px; top: 0px; pointer-events: none;"></div>
-          <a href="https://discordapp.com/invite/cookie" target="_blank" style="padding-left: 16px;" id="topbarDiscord">Discord</a>
-        </div>
-        <div style="position: relative;">
-          <div style="width: 25px; height: 32px; background: url(img/weeHoodie.png); position: absolute; left: -2px; top: 0px; pointer-events: none;"></div>
-          <a class="blueLink" href="http://www.redbubble.com/people/dashnet" target="_blank" style="padding-left: 12px;" id="topbarMerch">Merch!</a>
-        </div>
-        <div style="position: relative;">
-          <div style="width: 22px; height: 32px; background: url(img/patreon.png); position: absolute; left: 0px; top: 0px; pointer-events: none;"></div>
-          <a class="orangeLink" href="https://www.patreon.com/dashnet" target="_blank" style="padding-left: 16px;" id="topbarPatreon">Patreon</a>
-        </div>
-        <div style="position: relative; display: inline-block; font-weight: bold;" id="heralds">
-          <div style="position: absolute; top: -4px; width: 31px; height: 39px; background: url(img/heraldFlag.png); left: 50%; margin-left: -15px; pointer-events: none;"></div>
-          <div id="heraldsAmount" style="position: relative; z-index: 10; text-shadow: 0px 1px 0px #000, 0px 0px 6px #ff00e4; color: #fff;">?</div>
-        </div>
-        <div><a class="lightblueLink" style="font-weight: bold;" href="https://play.google.com/store/apps/details?id=org.dashnet.cookieclicker" target="_blank" id="topbarMobileCC">Cookie Clicker for Android</a></div>
-        <div><a class="lightblueLink" style="font-weight: bold;" href="https://store.steampowered.com/app/1454400/Cookie_Clicker/" target="_blank" id="topbarSteamCC">Cookie Clicker on Steam</a></div>
-        <div><a href="//orteil.dashnet.org/randomgen/" target="_blank" id="topbarRandomgen">RandomGen</a></div>
-        <div><a href="//orteil.dashnet.org/igm/" target="_blank" id="topbarIGM">Idle Game Maker</a></div>
-        <div style="float: right; position: relative;">
-          <div id="tinyglobe" style="position: absolute; width: 22px; height: 22px; background: url(&quot;img/tinyglobeSheet.gif&quot;) -594px center; right: 4px; top: 4px; pointer-events: none;"></div>
-          <a id="changeLanguage" style="font-variant: small-caps; padding-right: 20px;" onmouseover="INTERVAL_TINYGLOBE=setInterval(function(){var tinyglobe=document.getElementById('tinyglobe');tinyglobe.style.backgroundPosition=(parseInt(tinyglobe.style.backgroundPosition)-22)+'px';},30);" onmouseout="clearInterval(INTERVAL_TINYGLOBE);">Change language</a>
-          <script>
-            document.getElementById("tinyglobe").style.backgroundPosition = -[0, 19, 27][Math.floor(Math.random() * 3)] * 22 + "px";
-          </script>
-        </div>
-        <div id="links" class="hoverer">Other versions<div class="hoverable">
-            <a href="beta" target="_blank" id="linkVersionBeta">Try the beta! (not working)</a>
-            <a href="//orteil.dashnet.org/cookieclicker/v10466" target="_blank" id="linkVersionOld">v. 1.0466</a>
-            <a href="//orteil.dashnet.org/experiments/cookie/" target="_blank">Classic</a>
-          </div>
-        </div>
-      </div>
-      <div id="game" class="focusLeft">
-        <div id="versionNumber" class="title">v. 2.048<div id="httpsSwitch" style="cursor:pointer;display:inline-block;background:url(img/lockOff.png);width:16px;height:16px;position:relative;top:4px;left:0px;margin:0px -2px;"></div></div>
-        <script>
-          document.getElementById("versionNumber").innerHTML = "v. " + VERSION;
-        </script>
-        <div id="offGameMessageWrap" style="display: none;">
-          <div id="offGameMessage"></div>
-        </div>
 
-        <canvas id="backgroundCanvas" width="800" height="690" style="background: transparent;"></canvas>
+<div id="wrapper">
 
-        <div id="goldenCookie" class="goldenCookie"></div>
-        <div id="seasonPopup" class="seasonPopup"></div>
-        <div id="shimmers"></div>
-        <div id="alert"></div>
-        <div id="particles"><div id="particle0" class="particle title"></div><div id="particle1" class="particle title"></div><div id="particle2" class="particle title"></div><div id="particle3" class="particle title"></div><div id="particle4" class="particle title"></div><div id="particle5" class="particle title"></div><div id="particle6" class="particle title"></div><div id="particle7" class="particle title"></div><div id="particle8" class="particle title"></div><div id="particle9" class="particle title"></div><div id="particle10" class="particle title"></div><div id="particle11" class="particle title"></div><div id="particle12" class="particle title"></div><div id="particle13" class="particle title"></div><div id="particle14" class="particle title"></div><div id="particle15" class="particle title"></div><div id="particle16" class="particle title"></div><div id="particle17" class="particle title"></div><div id="particle18" class="particle title"></div><div id="particle19" class="particle title"></div></div>
-        <div id="sparkles" class="sparkles"></div>
-        <div id="notes"></div>
-        <div id="darken" style="display: block;"></div>
-        <div id="toggleBox" class="framed prompt"></div>
-        <div id="promptAnchor" style="top: 171px; display: block;">
-          <div id="prompt" class="framed">
-            <div id="promptContent"><div id="promptContentChangeLanguage"><h3 id="languageSelectHeader">Change language</h3><div class="line"></div><div class="langSelectButton title" style="padding:4px;" id="langSelect-EN">English</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-FR">Français</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-DE">Deutsch</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-NL">Nederlands</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-CS">Čeština</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-PL">Polski</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-IT">Italiano</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-ES">Español</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-PT-BR">Português</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-JA">日本語</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-ZH-CN">中文</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-KO">한글</div><div class="langSelectButton title" style="padding:4px;" id="langSelect-RU">Русский</div></div><div class="optionBox"></div></div>
-            <div id="promptClose" class="close" style="display: none;" onclick="PlaySound('snd/tickOff.mp3');Game.ClosePrompt();">x</div>
-          </div>
-        </div>
-        <div id="ascend">
-          <div id="ascendBG"></div>
-          <div id="ascendZoomable">
-            <div id="ascendContent"><div id="ascendUpgrades" style="position: absolute;"></div></div>
-          </div>
-          <div id="ascendOverlay"><div id="ascendBox"><div id="ascendData1" class="ascendData smallFramed prompt" style="margin-top:8px;"><h3 id="ascendPrestige"></h3></div><div id="ascendData2" class="ascendData smallFramed prompt"><h3 id="ascendHCs"></h3></div><a id="ascendButton" class="option framed large red" onmouseout="Game.tooltip.shouldHide=1;" onmouseover="Game.tooltip.dynamic=0;Game.tooltip.draw(this,'%3Cdiv%20style%3D%22min-width%3A300px%3Btext-align%3Acenter%3Bfont-size%3A11px%3Bpadding%3A8px%3B%22%20id%3D%22tooltipReincarnate%22%3EClick%20this%20once%20you%27ve%20bought%3Cbr%3Eeverything%20you%20need%21%3C/div%3E','bottom-right');Game.tooltip.wobble();" style="font-size:16px;margin-top:0px;"><span class="fancyText" style="font-size:20px;">Reincarnate</span></a><div id="ascendModeButton" style="position:absolute;right:34px;bottom:25px;display:none;"><div class="crate noFrame enabled" onclick="Game.PickAscensionMode();" onmouseout="Game.tooltip.shouldHide=1;" onmouseover="Game.tooltip.dynamic=0;Game.tooltip.draw(this,'%3Cdiv%20style%3D%22min-width%3A200px%3Btext-align%3Acenter%3Bfont-size%3A11px%3B%22%20id%3D%22tooltipNextChallengeMode%22%3EChallenge%20mode%20for%20the%20next%20run%3A%3Cbr%3E%3Cb%3ENone%3C/b%3E%3Cdiv%20class%3D%22line%22%3E%3C/div%3EChallenge%20modes%20apply%20special%20modifiers%20to%20your%20next%20ascension.%3Cbr%3EClick%20to%20change.%3C/div%3E','bottom-right');Game.tooltip.wobble();" style="opacity:1;float:none;display:block;background-position:-480px 0px;"></div></div><input type="text" style="display:block;" id="upgradePositions"></div><div id="ascendInfo"><div class="ascendData smallFramed" style="margin-top:22px;width:75%;font-size:11px;">You are ascending.<br>Drag the screen around<br>or use arrow keys!<br>When you're ready,<br>click Reincarnate.</div></div></div>
-        </div>
+	<div id="topBar">
+		<div style="float:right;"><a id="changeLanguage" style="font-variant:small-caps;">Change language</a></div>
+	</div>
+	<div id="game">
+		<div id="versionNumber" class="title">v. 2.048</div>
+		<script>document.getElementById('versionNumber').innerHTML='v. '+VERSION;</script>
+		<div id="offGameMessageWrap">
+			<div id="offGameMessage"><div class="title" id="languageSelectHeader">Idioma</div><div class="line" style="max-width:300px;"></div><div class="langSelectButton title" id="langSelect-EN">English</div><div class="langSelectButton title" id="langSelect-FR">Français</div><div class="langSelectButton title" id="langSelect-DE">Deutsch</div><div class="langSelectButton title" id="langSelect-NL">Nederlands</div><div class="langSelectButton title" id="langSelect-CS">Čeština</div><div class="langSelectButton title" id="langSelect-PL">Polski</div><div class="langSelectButton title" id="langSelect-IT">Italiano</div><div class="langSelectButton title" id="langSelect-ES">Español</div><div class="langSelectButton title" id="langSelect-PT-BR">Português</div><div class="langSelectButton title" id="langSelect-JA">日本語</div><div class="langSelectButton title" id="langSelect-ZH-CN">中文</div><div class="langSelectButton title" id="langSelect-KO">한글</div><div class="langSelectButton title" id="langSelect-RU">Русский</div></div>
+		</div>
 
-        <div id="debug">
-          <div id="devConsole" class="framed"></div>
-          <div id="debugLog"></div>
-        </div>
+		<canvas id="backgroundCanvas"></canvas>
+		
+		<div id="goldenCookie" class="goldenCookie"></div>
+		<div id="seasonPopup" class="seasonPopup"></div>
+		<div id="shimmers"></div>
+		<div id="alert"></div>
+		<div id="particles"></div>
+		<div id="sparkles" class="sparkles"></div>
+		<div id="notes"></div>
+		<div id="darken"></div>
+		<div id="toggleBox" class="framed prompt"></div>
+		<div id="promptAnchor"><div id="prompt" class="framed"><div id="promptContent"></div><div class="close" onclick="PlaySound('snd/tickOff.mp3');Game.ClosePrompt();">x</div></div></div>
+		<div id="ascend">
+			<div id="ascendBG"></div>
+			<div id="ascendZoomable"><div id="ascendContent"><div id="ascendUpgrades" style="position:absolute;"></div></div></div>
+			<div id="ascendOverlay"></div>
+		</div>
+		
+		<div id="debug"><div id="devConsole" class="framed"></div><div id="debugLog"></div></div>
+		
+		<div id="sectionLeft" class="inset">
+			<canvas id="backgroundLeftCanvas" style="z-index:5;"></canvas>
+			<div class="blackFiller"></div>
+			<div class="blackGradient"></div>
+			<div id="sectionLeftInfo"></div>
+			<div id="cookies" class="title"></div>
+			<div id="bakeryNameAnchor"><div id="bakeryName" class="title"></div></div>
+			<div id="specialPopup" class="framed prompt offScreen"></div>
+			<div id="buffs" class="crateBox"></div>
+			<div id="cookieAnchor">
+				<button id="bigCookie"></button>
+				<div id="cookieNumbers"></div>
+			</div>
+			<div id="sectionLeftExtra"></div>
+		</div>
 
-        <div id="sectionLeft" class="inset" style="cursor: auto;">
-          <canvas id="backgroundLeftCanvas" style="z-index: 5;" width="240" height="690"></canvas>
-          <div class="blackFiller"></div>
-          <div class="blackGradient"></div>
-          <div id="sectionLeftInfo"></div>
-          <div id="cookies" class="title">0 cookies<div id="cookiesPerSecond">per second: 0</div></div>
-          <div id="bakeryNameAnchor"><div id="bakeryName" class="title">Moldy Robot's bakery</div></div>
-          <div id="specialPopup" class="framed prompt offScreen"></div>
-          <div id="buffs" class="crateBox"></div>
-          <div id="cookieAnchor">
-            <button id="bigCookie"></button>
-            <div id="cookieNumbers"></div>
-          </div>
-          <div id="sectionLeftExtra"></div>
-        </div>
+		<div class="separatorLeft" id="leftBeam"></div>
+		<div class="separatorRight" id="rightBeam"></div>
 
-        <div class="separatorLeft" id="leftBeam"></div>
-        <div class="separatorRight" id="rightBeam"></div>
+		<div id="sectionMiddle" class="inset">
+			<div id="comments" class="inset title">
+				<div id="prefsButton" class="panelButton"><div class="subButton">Options</div></div>
+				<div id="statsButton" class="panelButton"><div>Stats</div></div>
+				<div id="logButton" class="panelButton"><div>Info</div><div id="checkForUpdate">New update!</div></div>
+				<div id="legacyButton" class="panelButton"><div class="subButton">Legacy</div><div id="ascendMeterContainer" class="smallFramed meterContainer"><div id="ascendMeter" class="meter filling"></div></div><div class="roundedPanel" id="ascendNumber"></div><div id="ascendTooltip" class="framed"></div></div>
+				<div id="commentsText">
+					<div id="commentsText1" class="commentsText"></div>
+					<div id="commentsText2" class="commentsText"></div>
+				</div>
+				<div class="separatorBottom"></div>
+			</div>
+			<div id="centerArea">
+				<div id="buildingsTitle" class="inset title zoneTitle">Buildings</div>
+				<div id="buildingsMaster"></div>
+				<div id="rows"></div>
+				<div id="menu"></div>
+			</div>
+		</div>
+		
+		<div id="sectionRight" class="inset">
+			
+			<div id="store">
+				<div id="storeTitle" class="inset title zoneTitle">Store</div>
+				<div id="toggleUpgrades" class="storeSection upgradeBox"></div>
+				<div id="techUpgrades" class="storeSection upgradeBox"></div>
+				<div id="vaultUpgrades" class="storeSection upgradeBox"></div>
+				<div id="upgrades" class="storeSection upgradeBox"></div>
+				<div id="products" class="storeSection"></div>
+			</div>
+			
+		</div>
+		
+		<div id="tooltipAnchor"><div id="tooltip" class="framed" onmouseout="Game.tooltip.hide();"></div></div>
+		<div id="preloadImages" style="display:none;"></div>
 
-        <div id="sectionMiddle" class="inset">
-          <div id="comments" class="inset title">
-            <div id="prefsButton" class="panelButton"><div class="subButton">Options</div></div>
-            <div id="statsButton" class="panelButton"><div>Stats</div></div>
-            <div id="logButton" class="panelButton">
-              <div>Info</div>
-              <div id="checkForUpdate">New update!</div>
-            </div>
-            <div id="legacyButton" class="panelButton">
-              <div class="subButton">Legacy</div>
-              <div id="ascendMeterContainer" class="smallFramed meterContainer"><div id="ascendMeter" class="meter filling" style="background-position: -125px center; transform: translate(-100%, 0px);"></div></div>
-              <div class="roundedPanel" id="ascendNumber" style="display: none;"></div>
-              <div id="ascendTooltip" class="framed">You've been on this run for <b>8 seconds</b>.<br><div class="line"></div>Ascending now would grant you no prestige.<div class="line"></div>You need <b>1 trillion more cookies</b> for the next level.<br></div>
-            </div>
-            <div id="commentsText">
-              <div id="commentsText1" class="commentsText risingUp"><div style="transform:scale(0.8,1.2);">News&nbsp;: help!</div></div>
-              <div id="commentsText2" class="commentsText risingAway"></div>
-            </div>
-            <div class="separatorBottom"></div>
-          <div id="lumps" onclick="Game.clickLump();" onmouseout="Game.tooltip.shouldHide=1;" onmouseover="Game.tooltip.dynamic=1;Game.tooltip.draw(this,function(){return Game.lumpTooltip();},'bottom');Game.tooltip.wobble();"><div id="lumpsIcon" class="usesIcon"></div><div id="lumpsIcon2" class="usesIcon"></div><div id="lumpsAmount">0</div></div></div>
-        </div>
-      </div>
-    </div>
-</body>
-</html>
+	</div>
+
+</div>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
